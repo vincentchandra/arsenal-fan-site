@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* font-family: 'PT Serif', serif; */
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    display: inline;
+}
+
+.logo{
+     /* float: right; 
+     width: 40%; */
+    max-width: 50px; 
+}
+/* .mainTitle{ */
+     /* float: left; 
+     width: 50%;   */
+     /* color: black;   */
+/* } */
+
+.image{
+    width: 100%;
+}
+
+.heading{
+    /* display: inline; */
+    font-family: 'Cabin', sans-serif;
+
+    color: white;
+    background-color: red;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* padding-top: 10px; */
+    padding: 2px 30px 10px 30px;
+    width: 100%;
+    /* display: inline; */
+}
+
+header h1{
+    font-size: 50px;
+}
+
+nav{
+    background-color: #b51504;
+    position: sticky;
+    padding: 5px;
+    margin-top: 0px;
+    top:0;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px ;
+    padding-bottom: 22px;
+
+}
+
+
+nav a:hover{
+    font-weight: bold;
+    background-color: #941102 ;
+}
+
+nav li{
+    display: inline;
+    color: white;
+    list-style-type: none;
+}
+
+.judul-content{
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    background-color: red;
+    padding: 1em 1em 1em 1em;
+    width: 100%;
+}
+.my-profile{
+    font-family: 'Cabin', sans-serif;
+
+    padding: 1em 0 1em 0;
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+    background-color: red;
+}
+
+
+.isi-content{
+    text-align: justify;
+    color: black;
+}
+
+
+main{
+    margin: 2em 2em 2em 2em;
+    overflow: auto;
+}
+
+#content{
+    float: left;
+    width: 70%;
+}
+
+.imageLegend{
+    float: left;
+    width: 50%;
+    padding-right: 15px;
+
+}
+.kiri{
+    float: left;
+    width: 40%;
+}
+.kanan{
+    float: right;
+    width: 40%;
+}
+
+.articleLegend{
+    /* float: right; */
+    /* width: 50%; */
+    text-align: justify;
+}
+
+aside{
+    float: right;
+    width: 30%;
+    padding-left: 20px;
+}
+
+
+.profile{
+
+    box-shadow: 0px 4px 8px 0 rgba(253, 4, 4, 0.2);
+    text-align: center;
+    border-radius: 0px;
+    border-color: red;
+    
+}
+table{
+    padding-left: 40px; 
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+.photoId{
+    max-width: 150px;
+}
+
+tr{
+    align-items: center;
+}
+footer{
+    padding: 20px;
+    color: white;
+    background-color:red;
+    text-align: center;
+    font-weight: bold;
+}
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+ }
